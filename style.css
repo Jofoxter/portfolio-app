@@ -25,26 +25,11 @@ h2 {
 h3 {
   font-size: 24px;
   opacity: 0.7;
+  line-height: 1.5;
 }
 p {
   font-size: 18px;
   line-height: 1.5;
-}
-@media (max-width: 600px) {
-  h1 {
-    font-size: 46px;
-  }
-  h2 {
-    font-size: 28px;
-  }
-  h3 {
-    font-size: 14px;
-    opacity: 0.7;
-  }
-  p {
-    font-size: 14px;
-    line-height: 1.5;
-  }
 }
 
 .navigation-links {
@@ -99,4 +84,20 @@ p {
 }
 .p-zero {
   padding: 0%;
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 46px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 14px;
+    opacity: 0.7;
+  }
+  p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
 }
